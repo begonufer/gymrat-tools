@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1064040003032",
+    "project_id": "gymrat-tools",
+    "storage_bucket": "gymrat-tools.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064040003032:android:b31b50de9a8283b3c02ead",
+        "android_client_info": {
+          "package_name": "com.conmo.gymrattools"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACRqySLUcM_SigZ_oOxEeQlr28qC31gdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
