@@ -9,6 +9,7 @@ const ExerciseBrowser = () => {
     { id: '3', name: 'Deadlift' },
     { id: '4', name: 'RDL' },
     { id: '5', name: 'Curl' },
+    { id: '6', name: 'Pull'}
   ]);
 
   const filteredExercises = exercises.filter(exercise =>

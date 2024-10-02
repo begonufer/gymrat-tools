@@ -13,6 +13,12 @@ import TrainingScreen from './screens/TrainingScreen';
 import AddTrainingScreen from './screens/AddTrainingScreen';
 import DetailScreen from './screens/DetailScreen';
 import CalendarScreen from './screens/CalendarScreen';
+import ExerciseBrowserScreen from './screens/ExerciseBrowserScreen';
+import AddExerciseScreen from './screens/AddExerciseScreen';
+import AddRoutineScreen from './screens/AddRoutineScreen';
+import EditExerciseScreen from './screens/EditExerciseScreen';
+import AddWorkoutScreen from './screens/AddWorkoutScreen';
+import DoingWorkoutScreen from './screens/DoingWorkoutScreen';
 
 import { auth } from './firebaseConfig';
 import { StyleSheet } from 'react-native';
@@ -87,6 +93,12 @@ export default function App() {
             <Stack.Screen name="Detail" component={DetailScreen} options={{ headerShown: true }} />
             <Stack.Screen name="Training" component={TrainingScreen}/>
             <Stack.Screen name="AddTraining" component={AddTrainingScreen} options={{ headerShown: true, headerTitle: () => null, headerBackTitleVisible: false, }} />
+            <Stack.Screen name="ExerciseBrowser" component={ExerciseBrowserScreen} options={{ headerShown: true, headerTitle: () => null, headerBackTitleVisible: false, }} />
+            <Stack.Screen name="AddExercise" component={AddExerciseScreen} options={{ headerShown: true, headerTitle: () => null, headerBackTitleVisible: false, }} />
+            <Stack.Screen name="AddRoutine" component={AddRoutineScreen} options={{ headerShown: true, headerTitle: () => null, headerBackTitleVisible: false, }} />
+            <Stack.Screen name="EditExercise" component={EditExerciseScreen} options={{ headerShown: true, headerTitle: () => null, headerBackTitleVisible: false, }} />
+            <Stack.Screen name="AddWorkout" component={AddWorkoutScreen} />
+            <Stack.Screen name="DoingWorkout" component={DoingWorkoutScreen} />
           </>
         ) : (
           <Stack.Screen name="AuthStack" component={AuthStack} />
